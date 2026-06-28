@@ -61,4 +61,4 @@ Arabic (native) · French (B2) · English (C1)
 ## Connect
 
 - LinkedIn: [linkedin.com/in/meryemelosmani](https://linkedin.com/in/meryemelosmani)
-- Email: meryemelosmani@gmail.com
+- Email: maryamelosmani@gmail.com
