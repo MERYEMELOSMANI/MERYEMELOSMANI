@@ -20,7 +20,8 @@ Master's student in Artificial Intelligence & Optimal Decision Systems at Facult
 
 | Project | Description | Stack |
 |---|---|---|
-| [V2C Sentinel](https://github.com/MERYEMELOSMANI/V2C-Sentinel) | Intrusion detection system for Vehicle-to-Cloud networks using LSTM Autoencoder on CAN bus data | Python, PyTorch, Scikit-Learn |
+| [Churn Prediction MLOps](https://github.com/MERYEMELOSMANI/churn-prediction-mlops) | Production MLOps system for telco churn prediction — DVC pipeline, MLflow tracking/registry, FastAPI serving, Docker, drift monitoring | Python, MLflow, DVC, FastAPI, Docker |
+| [Pricing Analytics Engine](https://github.com/MERYEMELOSMANI/pricing-analytics-engine) | Dynamic pricing intelligence on 1M+ e-commerce transactions — RFM segmentation, CLV, ABC-XYZ classification, price elasticity, revenue forecasting | Python, FastAPI, DuckDB, Chart.js |
 | [Supply Chain Optimization Dashboard](https://github.com/MERYEMELOSMANI/supply-chain-optimization-dashboard) | Interactive dashboard with LP, Genetic Algorithm, Monte Carlo simulation, and multi-objective optimization | Python, Streamlit, PuLP |
 | [Contact Manager](https://github.com/MERYEMELOSMANI/Gestion-des-contacts) | Full-stack web app with auth, SQLite, Gemini AI assistant, email integration, and CSV export | Python, Flask, SQLite |
 | [Computer Vision Gesture Suite](https://github.com/MERYEMELOSMANI/hand-detection-program) | 12 real-time gesture applications — air writing, gesture painter, holographic effects, Rock Paper Scissors | Python, OpenCV, MediaPipe |
