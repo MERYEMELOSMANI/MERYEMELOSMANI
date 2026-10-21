@@ -1,18 +1,18 @@
 <div align="center">
 
 <!-- Matrix Digital Rain Header Animation (Native SVG) -->
-<img src="./assets/matrix-rain-header.svg" width="100%" alt="Hello, World - Matrix Rain Header" />
+<img src="https://raw.githubusercontent.com/MERYEMELOSMANI/MERYEMELOSMANI/main/assets/matrix-rain-header.svg" width="100%" alt="Hello, World - Matrix Rain Header" />
 
 <!-- Neon Rainbow Animated Divider -->
-<img src="./assets/neon-divider.svg" width="100%" alt="Rainbow Divider" />
+<img src="https://raw.githubusercontent.com/MERYEMELOSMANI/MERYEMELOSMANI/main/assets/neon-divider.svg" width="100%" alt="Rainbow Divider" />
 
 <br/>
 
 <!-- Cyber Greeting Banner (Native Glowing SVG) -->
-<img src="./assets/cyber-banner.svg" width="100%" alt="Hey, I'm Meryem El Osmani - Cyber Banner" />
+<img src="https://raw.githubusercontent.com/MERYEMELOSMANI/MERYEMELOSMANI/main/assets/cyber-banner.svg" width="100%" alt="Hey, I'm Meryem El Osmani - Cyber Banner" />
 
 <!-- Dynamic Typewriter Animation (Native SVG) -->
-<img src="./assets/typewriter.svg" width="100%" alt="Dynamic AI Engineer Typewriter" />
+<img src="https://raw.githubusercontent.com/MERYEMELOSMANI/MERYEMELOSMANI/main/assets/typewriter.svg" width="100%" alt="Dynamic AI Engineer Typewriter" />
 
 <br/>
 
@@ -29,7 +29,7 @@
 </div>
 
 <!-- Neon Rainbow Animated Divider -->
-<img src="./assets/neon-divider.svg" width="100%" alt="Rainbow Divider" />
+<img src="https://raw.githubusercontent.com/MERYEMELOSMANI/MERYEMELOSMANI/main/assets/neon-divider.svg" width="100%" alt="Rainbow Divider" />
 
 ## 🌌 About Me
 
@@ -72,7 +72,7 @@ I architect end-to-end intelligent systems, mathematical optimization engines, a
 <div align="center">
 
 <!-- Celestial Constellation Star Network (Native SVG) -->
-<img src="./assets/constellation-network.svg" width="100%" alt="Celestial Constellation Network" />
+<img src="https://raw.githubusercontent.com/MERYEMELOSMANI/MERYEMELOSMANI/main/assets/constellation-network.svg" width="100%" alt="Celestial Constellation Network" />
 
 <br/><br/>
 
@@ -159,7 +159,7 @@ I architect end-to-end intelligent systems, mathematical optimization engines, a
 </div>
 
 <!-- Neon Rainbow Animated Divider -->
-<img src="./assets/neon-divider.svg" width="100%" alt="Rainbow Divider" />
+<img src="https://raw.githubusercontent.com/MERYEMELOSMANI/MERYEMELOSMANI/main/assets/neon-divider.svg" width="100%" alt="Rainbow Divider" />
 
 <div align="center">
   <sub>Crafted with passion, cosmic stardust, and mathematical precision by <strong>Meryem El Osmani</strong></sub>
