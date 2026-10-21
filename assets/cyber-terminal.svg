@@ -1,22 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="100%" height="360">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="100%" height="380">
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="termBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0e131b"/>
-      <stop offset="100%" stop-color="#06090e"/>
+      <stop offset="0%" stop-color="#0c1017"/>
+      <stop offset="100%" stop-color="#05080d"/>
     </linearGradient>
 
-    <!-- Outer Window Shadow Glow -->
-    <filter id="termShadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <filter id="cyanGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
+    <!-- Outer Window Drop Shadow -->
+    <filter id="termShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -25,161 +17,81 @@
   </defs>
 
   <style>
-    @keyframes cursorBlink {
+    @keyframes blink {
       0%, 100% { opacity: 1; }
       50% { opacity: 0; }
     }
-    @keyframes fadeSeq1 {
-      0%, 28% { opacity: 1; visibility: visible; }
-      32%, 100% { opacity: 0; visibility: hidden; }
-    }
-    @keyframes fadeSeq2 {
-      0%, 32% { opacity: 0; visibility: hidden; }
-      34%, 62% { opacity: 1; visibility: visible; }
-      66%, 100% { opacity: 0; visibility: hidden; }
-    }
-    @keyframes fadeSeq3 {
-      0%, 66% { opacity: 0; visibility: hidden; }
-      68%, 96% { opacity: 1; visibility: visible; }
-      100% { opacity: 0; visibility: hidden; }
-    }
-
-    .f-mono {
+    .mono {
       font-family: 'Space Grotesk', 'Fira Code', 'Courier New', monospace;
     }
-    .f-sans {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    }
-
-    .seq1 { animation: fadeSeq1 18s infinite; }
-    .seq2 { animation: fadeSeq2 18s infinite; }
-    .seq3 { animation: fadeSeq3 18s infinite; }
-
     .cursor {
       fill: #ffd166;
-      animation: cursorBlink 0.9s infinite;
+      animation: blink 0.85s infinite;
     }
-    .term-title {
-      font-size: 13px;
-      font-weight: 600;
-      fill: #8b949e;
-    }
-    .term-status {
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 1.5px;
-      fill: #39d353;
-    }
-    .welcome-text {
-      font-size: 13px;
-      font-weight: 700;
-      fill: #4cc9f0;
-      letter-spacing: 0.5px;
-    }
-    .welcome-sub {
-      font-size: 12px;
-      fill: #8b949e;
-    }
-    .prompt {
-      font-size: 13px;
-      font-weight: 700;
-      fill: #4cc9f0;
-    }
-    .cmd-text {
-      font-size: 13px;
-      font-weight: 700;
-      fill: #ffffff;
-    }
-    .output-key {
-      font-size: 12px;
-      font-weight: 700;
-      fill: #9d4edd;
-    }
-    .output-val {
-      font-size: 12px;
-      fill: #c9d1d9;
-    }
-    .output-hl {
-      font-size: 12px;
-      font-weight: 700;
-      fill: #ffd166;
-    }
-    .badge-access {
-      font-size: 12px;
-      font-weight: 800;
-      fill: #39d353;
-      letter-spacing: 1px;
-    }
-    .bottom-cta {
-      font-size: 12px;
-      font-weight: 600;
-      fill: #58a6ff;
-    }
+    .dot-red { fill: #ff5f56; }
+    .dot-yellow { fill: #ffbd2e; }
+    .dot-green { fill: #27c93f; }
+    .term-title { font-size: 13px; font-weight: 600; fill: #8b949e; }
+    .term-status { font-size: 11px; font-weight: 700; fill: #39d353; letter-spacing: 1px; }
+    .welcome { font-size: 13px; font-weight: 700; fill: #4cc9f0; }
+    .prompt { font-size: 13px; font-weight: 700; fill: #4cc9f0; }
+    .cmd { font-size: 13px; font-weight: 700; fill: #ffffff; }
+    .key { font-size: 12px; font-weight: 700; fill: #9d4edd; }
+    .val { font-size: 12px; fill: #c9d1d9; }
+    .hl-gold { font-size: 12px; font-weight: 700; fill: #ffd166; }
+    .hl-green { font-size: 12px; font-weight: 700; fill: #39d353; }
+    .link-cyan { font-size: 12px; font-weight: 600; fill: #58a6ff; text-decoration: underline; }
   </style>
 
-  <!-- Outer Window Container -->
+  <!-- Window Container with Shadow -->
   <g filter="url(#termShadow)">
-    <rect x="25" y="15" width="850" height="330" rx="12" fill="url(#termBg)" stroke="#30363d" stroke-width="1.5"/>
+    <rect x="25" y="15" width="850" height="350" rx="12" fill="url(#termBg)" stroke="#30363d" stroke-width="1.5"/>
   </g>
 
-  <!-- Window Header Bar -->
+  <!-- Title Bar -->
   <rect x="25" y="15" width="850" height="38" rx="12" fill="#161b22"/>
   <rect x="25" y="41" width="850" height="12" fill="#161b22"/>
   <line x1="25" y1="53" x2="875" y2="53" stroke="#30363d" stroke-width="1"/>
 
-  <!-- macOS / Linux Window Dots -->
-  <circle cx="48" cy="34" r="6" fill="#ff5f56" stroke="#e0443e" stroke-width="0.5"/>
-  <circle cx="68" cy="34" r="6" fill="#ffbd2e" stroke="#dea123" stroke-width="0.5"/>
-  <circle cx="88" cy="34" r="6" fill="#27c93f" stroke="#1aab29" stroke-width="0.5"/>
+  <!-- macOS Window Dots -->
+  <circle cx="48" cy="34" r="6" class="dot-red"/>
+  <circle cx="68" cy="34" r="6" class="dot-yellow"/>
+  <circle cx="88" cy="34" r="6" class="dot-green"/>
 
   <!-- Window Title -->
-  <text x="450" y="38" text-anchor="middle" class="f-mono term-title">meryem@ai-quantum-core:~ (zsh interactive)</text>
+  <text x="450" y="38" text-anchor="middle" class="mono term-title">meryem@ai-quantum-core:~ (zsh interactive)</text>
 
-  <!-- Live Status Beacon -->
+  <!-- Online Status -->
   <circle cx="770" cy="34" r="4" fill="#39d353"/>
-  <text x="782" y="38" class="f-mono term-status">ONLINE</text>
+  <text x="782" y="38" class="mono term-status">ONLINE</text>
 
-  <!-- Terminal Content Area -->
-  <g class="f-mono" transform="translate(48, 80)">
-    <!-- Welcome Header -->
-    <text x="0" y="0" class="welcome-text">⚡ CONNECTED TO MERYEM EL OSMANI PORTFOLIO CLI [v2.4.0]</text>
-    <text x="0" y="20" class="welcome-sub">Type <tspan fill="#ffd166">help</tspan> to view commands • Active Shell: <tspan fill="#4cc9f0">zsh 5.9 (x86_64-quantum-arch)</tspan></text>
+  <!-- Terminal Body Content -->
+  <g class="mono" transform="translate(48, 76)">
+    <!-- Header Welcome Banner -->
+    <text x="0" y="0" class="welcome">⚡ CONNECTED TO MERYEM EL OSMANI PORTFOLIO CLI [v2.4.0]</text>
+    <text x="0" y="18" font-size="11" fill="#8b949e">Shell: <tspan fill="#4cc9f0">zsh 5.9</tspan> • Type <tspan fill="#ffd166">help</tspan> for commands • Architecture: <tspan fill="#9d4edd">x86_64-quantum-arch</tspan></text>
 
-    <!-- Cycle Sequence 1: whoami -->
-    <g class="seq1">
-      <text x="0" y="58" class="prompt">visitor@meryem-os:~$ <tspan class="cmd-text">whoami</tspan></text>
+    <!-- Command 1: whoami -->
+    <text x="0" y="46" class="prompt">visitor@meryem-os:~$ <tspan class="cmd">whoami</tspan></text>
+    <text x="14" y="66" class="key">► NAME: <tspan class="cmd">Meryem El Osmani</tspan> <tspan class="val">• AI &amp; Optimal Decision Systems Engineer</tspan></text>
+    <text x="14" y="84" class="key">► DEGREE: <tspan class="val">Master's in AI &amp; Optimal Decision Systems — </tspan><tspan class="hl-gold">Faculté des Sciences de Meknès 🇲🇦</tspan></text>
 
-      <rect x="0" y="70" width="804" height="88" rx="6" fill="rgba(255,255,255,0.02)" stroke="#7209b7" stroke-width="1" stroke-dasharray="2 2"/>
-      <text x="16" y="92" class="output-key">► NAME: <tspan class="cmd-text">Meryem El Osmani</tspan></text>
-      <text x="16" y="112" class="output-key">► DEGREE: <tspan class="output-val">Master's in Artificial Intelligence &amp; Optimal Decision Systems</tspan></text>
-      <text x="16" y="132" class="output-key">► FACULTY: <tspan class="output-val">Faculté des Sciences de Meknès 🇲🇦</tspan></text>
-      <text x="16" y="150" class="output-key">► FOCUS: <tspan class="output-hl">Autonomous Agents • Deep Learning • Simplex/LP Optimization • MLOps</tspan></text>
-    </g>
+    <!-- Command 2: skills -->
+    <text x="0" y="114" class="prompt">visitor@meryem-os:~$ <tspan class="cmd">skills --summary</tspan></text>
+    <text x="14" y="134" class="key">► AI &amp; ML: <tspan class="val">PyTorch, Scikit-Learn, LangGraph Multi-Agent, Vector Search, PuLP Simplex</tspan></text>
+    <text x="14" y="152" class="key">► STACK: <tspan class="val">FastAPI, DuckDB, Polars, React 19, Next.js 16, TypeScript, Three.js WebGL</tspan></text>
 
-    <!-- Cycle Sequence 2: skills -->
-    <g class="seq2">
-      <text x="0" y="58" class="prompt">visitor@meryem-os:~$ <tspan class="cmd-text">skills --verbose</tspan></text>
+    <!-- Command 3: certs -->
+    <text x="0" y="182" class="prompt">visitor@meryem-os:~$ <tspan class="cmd">credentials --verified</tspan></text>
+    <text x="14" y="202" class="key">► CREDLY: <tspan class="hl-green">✓ 5 Verified Badges</tspan> <tspan class="val">(IBM Data Analysis, Gen AI, Google Cloud Cybersecurity)</tspan></text>
 
-      <rect x="0" y="70" width="804" height="88" rx="6" fill="rgba(255,255,255,0.02)" stroke="#4cc9f0" stroke-width="1" stroke-dasharray="2 2"/>
-      <text x="16" y="92" class="output-key">► AI &amp; ML: <tspan class="output-val">PyTorch, Scikit-Learn, LangGraph Multi-Agent, PuLP Optimization</tspan></text>
-      <text x="16" y="112" class="output-key">► DATA OPS: <tspan class="output-val">DuckDB, Polars, Pandas, PostgreSQL, Docker, MLflow, DVC</tspan></text>
-      <text x="16" y="132" class="output-key">► FRONTEND: <tspan class="output-val">React 19, Next.js 16, TypeScript, Three.js WebGL, MediaPipe Vision</tspan></text>
-      <text x="16" y="150" class="output-key">► CERTS: <tspan class="output-hl">5 Verified Credly Credentials (IBM Data Analysis, Gen AI, Google Cloud)</tspan></text>
-    </g>
+    <!-- Command 4: hire -->
+    <text x="0" y="232" class="prompt">visitor@meryem-os:~$ <tspan class="cmd">sudo hire --candidate=meryem</tspan></text>
+    <text x="14" y="252" class="hl-green">[ACCESS GRANTED: CANDIDATE VERIFIED &amp; READY TO DEPLOY]</text>
+    <text x="14" y="270" class="key">► DIRECT CONTACT: <tspan class="hl-gold">m.elosmani@edu.umi.ac.ma</tspan> • <tspan class="link-cyan">linkedin.com/in/meryemelosmani</tspan></text>
 
-    <!-- Cycle Sequence 3: sudo hire -->
-    <g class="seq3">
-      <text x="0" y="58" class="prompt">visitor@meryem-os:~$ <tspan class="cmd-text">sudo hire --candidate=meryem</tspan></text>
-
-      <rect x="0" y="70" width="804" height="88" rx="6" fill="rgba(57,211,83,0.04)" stroke="#39d353" stroke-width="1.2"/>
-      <text x="16" y="92" class="badge-access">[ACCESS GRANTED: CANDIDATE VERIFIED &amp; READY TO DEPLOY]</text>
-      <text x="16" y="112" class="output-key">► DIRECT EMAIL: <tspan class="output-hl">m.elosmani@edu.umi.ac.ma</tspan> • <tspan class="output-val">maryamelosmani@gmail.com</tspan></text>
-      <text x="16" y="132" class="output-key">► LINKEDIN: <tspan class="bottom-cta">linkedin.com/in/meryemelosmani</tspan></text>
-      <text x="16" y="150" class="output-key">► STATUS: <tspan class="output-hl">Available for AI Engineering, Decision Systems &amp; Data Analyst Roles!</tspan></text>
-    </g>
-
-    <!-- Bottom Input Prompt Row -->
-    <line x1="0" y1="210" x2="804" y2="210" stroke="#21262d" stroke-width="1"/>
-    <text x="0" y="235" class="prompt">visitor@meryem-os:~$ <tspan class="output-val">Type "help" in live terminal</tspan> <tspan class="cursor">█</tspan></text>
+    <!-- Active Prompt with Blinking Cursor -->
+    <line x1="0" y1="284" x2="804" y2="284" stroke="#21262d" stroke-width="1"/>
+    <text x="0" y="304" class="prompt">visitor@meryem-os:~$ <tspan class="cursor">█</tspan></text>
   </g>
 </svg>
