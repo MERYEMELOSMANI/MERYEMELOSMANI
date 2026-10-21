@@ -102,15 +102,25 @@ I build end-to-end intelligent systems, mathematical optimization engines, and a
 
 ---
 
-## 📜 Certifications
+## 🎖️ Verified Credentials & Digital Badges
 
-- 🏆 **AWS Technical Essentials** — Amazon Web Services
-- 🏆 **Generative AI: Boost Your Data Analytics Career** — IBM / Coursera
-- 🏆 **Generative AI: Foundations of Prompt Engineering** — IBM / Coursera
-- 🏆 **Python for Data Science, AI & Development** — IBM / Coursera
-- 🏆 **Operations Research (2): Optimization Algorithms** — National Taiwan University / Coursera
-- 🏆 **Introduction to Tableau** — Salesforce / Coursera
-- 🏆 **English C1 Advanced** — EF SET (74/100)
+<div align="center">
+
+| <img src="https://images.credly.com/size/220x220/images/27042a96-6f81-424a-b529-688ea56f2ef2/data-analysis-with-python.png" width="95" alt="Data Analysis with Python" onerror="this.src='https://img.shields.io/badge/IBM-Data_Analysis_with_Python-052FAD?style=for-the-badge&logo=python&logoColor=white'"/><br/>**Data Analysis with Python**<br/><sub>IBM • Coursera</sub><br/><sub>📅 15 Déc 2025</sub> | <img src="https://images.credly.com/size/220x220/images/6df1a03e-ef24-4f04-8b65-6804533039d6/generative-ai-essentials-for-data-analytics.png" width="95" alt="Generative AI Essentials" onerror="this.src='https://img.shields.io/badge/IBM-Gen_AI_Essentials-052FAD?style=for-the-badge&logo=ibm&logoColor=white'"/><br/>**Generative AI Essentials**<br/><sub>IBM • Coursera</sub><br/><sub>📅 29 Janv 2026</sub> | <img src="https://images.credly.com/size/220x220/images/154fae89-13e7-4952-bdf9-0db4bfd1ef32/generative-ai-prompt-engineering-basics.png" width="95" alt="Generative AI Prompt Engineering" onerror="this.src='https://img.shields.io/badge/IBM-Prompt_Engineering-052FAD?style=for-the-badge&logo=ibm&logoColor=white'"/><br/>**Generative AI: Prompt Engineering**<br/><sub>IBM • Coursera</sub><br/><sub>📅 29 Janv 2026</sub> |
+| :---: | :---: | :---: |
+| <img src="https://images.credly.com/size/220x220/images/635d0ad3-fc8c-4bc4-b78b-9e5c464ef243/google-cloud-cybersecurity-certificate.png" width="95" alt="Google Cloud Cybersecurity" onerror="this.src='https://img.shields.io/badge/Google_Cloud-Cybersecurity-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white'"/><br/>**Google Cloud Cybersecurity**<br/><sub>Google Cloud</sub><br/><sub>📅 8 Sept 2026</sub> | <img src="https://images.credly.com/size/220x220/images/8472fc59-57ef-466c-941f-17ab5f97b5d1/python-for-data-science-and-ai.png" width="95" alt="Python for Data Science and AI" onerror="this.src='https://img.shields.io/badge/IBM-Python_for_Data_Science_&_AI-052FAD?style=for-the-badge&logo=python&logoColor=white'"/><br/>**Python for Data Science & AI**<br/><sub>IBM • Coursera</sub><br/><sub>📅 28 Nov 2025</sub> | 🌐<br/>**English C1 Advanced**<br/><sub>EF SET Score (74/100)</sub><br/><sub>Proficient Academic &amp; Technical</sub> |
+
+<br/>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/IBM-Data_Analysis_with_Python-052FAD?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/IBM-Gen_AI_Essentials-052FAD?style=for-the-badge&logo=ibm&logoColor=white" />
+  <img src="https://img.shields.io/badge/IBM-Prompt_Engineering-052FAD?style=for-the-badge&logo=ibm&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google_Cloud-Cybersecurity_Certificate-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/IBM-Python_for_Data_Science_&_AI-052FAD?style=for-the-badge&logo=python&logoColor=white" />
+</p>
+
+</div>
 
 ---
 
