@@ -23,7 +23,7 @@
   <a href="mailto:m.elosmani@edu.umi.ac.ma"><img src="https://img.shields.io/badge/Email-m.elosmani@edu.umi.ac.ma-ea4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/Location-Morocco%20%F0%9F%87%B2%F0%9F%87%A6-7209b7?style=for-the-badge&logo=google-maps&logoColor=white" />
   <img src="https://img.shields.io/badge/Status-Building%20AI%20Systems-ffd166?style=for-the-badge&logo=satellite&logoColor=black" />
-  <a href="https://meryemelosmani.github.io/MERYEMELOSMANI/"><img src="https://img.shields.io/badge/Live_Showcase-Interactive_Terminal_&_3D-00ff66?style=for-the-badge&logo=gnubash&logoColor=black" /></a>
+  <a href="https://meryemelosmani.site/interactive/"><img src="https://img.shields.io/badge/Live_Showcase-Interactive_Terminal_&_3D-00ff66?style=for-the-badge&logo=gnubash&logoColor=black" /></a>
 </p>
 
 </div>
@@ -124,12 +124,12 @@ I architect end-to-end intelligent systems, mathematical optimization engines, a
 
 <div align="center">
 
-<a href="https://meryemelosmani.github.io/MERYEMELOSMANI/">
+<a href="https://meryemelosmani.site/interactive/">
   <img src="https://raw.githubusercontent.com/MERYEMELOSMANI/MERYEMELOSMANI/main/assets/cyber-terminal.svg" width="100%" alt="Interactive Cyber Developer CLI Terminal" />
 </a>
 
 <p align="center">
-  <a href="https://meryemelosmani.github.io/MERYEMELOSMANI/"><img src="https://img.shields.io/badge/▶_Launch_Live_Interactive_Terminal-00ff66?style=for-the-badge&logo=gnubash&logoColor=black" /></a>
+  <a href="https://meryemelosmani.site/interactive/"><img src="https://img.shields.io/badge/▶_Launch_Live_Interactive_Terminal-00ff66?style=for-the-badge&logo=gnubash&logoColor=black" /></a>
 </p>
 
 </div>
