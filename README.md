@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Matrix / Cosmic Digital Wave Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,1,2,3&height=190&section=header&text=Hello,%20World%20%E2%9C%A8&fontSize=44&fontAlignY=38&animation=twinkling&fontColor=ffffff&desc=Welcome%20to%20my%20digital%20cosmos&descSize=16&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
+<!-- Matrix / Digital Rain Header Animation -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,1,2,3&height=190&section=header&text=Hello,%20World%20%E2%9C%A8&fontSize=44&fontAlignY=38&animation=twinkling&fontColor=ffffff&desc=Data%20Analyst%20%26%20AI%20Engineer&descSize=16&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
 
 <!-- Rainbow Neon Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4300-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Rainbow Divider">
@@ -11,22 +11,23 @@
 <!-- Cyber Greeting Banner -->
 ```ascii
  ╔═══════════════════════════════════════════════════════════════════════════════╗
- ║   </>   HEY, I'M MERYEM EL OSMANI  •  AI RESEARCH & FULLSTACK ARCHITECT   </>  ║
+ ║   </>     HEY, I'M MERYEM EL OSMANI  •  AI & OPTIMAL DECISION SYSTEMS     </> ║
  ╚═══════════════════════════════════════════════════════════════════════════════╝
 ```
 
 <!-- Dynamic Typing SVG -->
 <a href="https://github.com/MERYEMELOSMANI">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=22&duration=2800&pause=1100&color=4CC9F0&center=true&vCenter=true&multiline=false&width=650&height=48&lines=AI+%26+Machine+Learning+Researcher+%F0%9F%94%AC;Autonomous+Multi-Agent+System+Architect+%F0%9F%A7%A0;Full-Stack+Web3+%26+Cloud+Developer+%E2%9A%A1;Creator+of+ResearchOS+%26+Cosmic+Alchemist+%F0%9F%8C%8C" alt="Typing Header" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=22&duration=2800&pause=1100&color=4CC9F0&center=true&vCenter=true&multiline=false&width=650&height=48&lines=Data+Analyst+%26+AI+Engineer+%F0%9F%94%AC;Machine+Learning+%26+Optimization+Architect+%F0%9F%A7%A0;Autonomous+Multi-Agent+System+Developer+%E2%9A%A1;Computer+Vision+%26+Predictive+Modeling+%F0%9F%91%81%EF%B8%8F" alt="Typing Header" />
 </a>
 
 <br/>
 
-<!-- Social / Badges Header -->
+<!-- Social & Status Badges -->
 <p align="center">
-  <a href="https://github.com/MERYEMELOSMANI"><img src="https://img.shields.io/badge/GitHub-MERYEMELOSMANI-7209b7?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-Connect-4cc9f0?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/Status-Sculpting%20AI%20Systems-ffd166?style=for-the-badge&logo=satellite&logoColor=black" />
+  <a href="https://linkedin.com/in/meryemelosmani"><img src="https://img.shields.io/badge/LinkedIn-Meryem%20El%20Osmani-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:maryamelosmani@gmail.com"><img src="https://img.shields.io/badge/Email-maryamelosmani@gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/Location-Morocco%20%F0%9F%87%B2%F0%9F%87%A6-7209b7?style=for-the-badge&logo=google-maps&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-Building%20AI%20Systems-ffd166?style=for-the-badge&logo=satellite&logoColor=black" />
 </p>
 
 </div>
@@ -38,34 +39,49 @@
 
 ```yaml
 Name: Meryem El Osmani
-Title: AI Research Scientist & Autonomous Systems Engineer
-Location: Morocco 🇲🇦
-Core Focus: Machine Learning, Multi-Agent Orchestration, High-Performance Web
-Current Obsessions:
-  - Autonomous LangGraph Agent Pipelines
-  - Real-time WebGL / Three.js Interactive Experiences
-  - Vector Embeddings & RAG Scientific Synthesis
-Philosophy: "The most important aspect of software is to be clear about what you are building."
+Degree: Master's in Artificial Intelligence & Optimal Decision Systems
+University: Faculté des Sciences de Meknès
+Core Competencies:
+  - Machine Learning & Deep Learning (PyTorch, Scikit-Learn)
+  - Operations Research & Combinatorial Optimization (PuLP, Simplex, Genetic Algorithms)
+  - Autonomous Multi-Agent Orchestration (LangGraph, DuckDB, Polars)
+  - End-to-End MLOps & Real-Time API Deployment (FastAPI, Docker, DVC)
+  - Computer Vision & Gesture Recognition (OpenCV, MediaPipe)
+Spoken Languages:
+  - Arabic (Native)
+  - English (C1 Advanced - EF SET 74/100)
+  - French (B2 Professional)
 ```
 
-- 🔬 **Architecting [ResearchOS](https://github.com/MERYEMELOSMANI/research-os)**: Autonomous scientific workbench linking PDF literature ingestion, pgvector embeddings, synthesized RAG, and multi-model ML serving.
-- 🧠 **Building [Autonomous AI Data Analyst](https://github.com/MERYEMELOSMANI/autonomous-ai-data-analyst)**: 6-agent LangGraph orchestration with AST-verified SQL, DuckDB, Polars, and zero-hallucination guarantees.
-- 🪐 **Sculpting [Cosmic Alchemist](https://github.com/MERYEMELOSMANI)**: Interactive hand-sculpted miniature universe using MediaPipe and Three.js additive particle physics.
-- 💬 Ask me about: **Deep Learning, RAG Architectures, FastAPI, Next.js, and Multi-Agent Workflows**.
+I build end-to-end intelligent systems, mathematical optimization engines, and autonomous agent pipelines — from data ingestion and semantic vector retrieval to high-performance real-time deployment.
 
 ---
 
-## 🔭 Language and Tools
+## 🚀 Featured Projects
+
+| Project | Description | Stack |
+| :--- | :--- | :--- |
+| **[ResearchOS](https://github.com/MERYEMELOSMANI/research-os)** | Autonomous AI research workbench linking PDF literature ingestion, vector embeddings (`all-MiniLM-L6-v2`), synthesized RAG, tabular ML training, and real-time model serving. | Next.js 16, React 19, FastAPI, SQLite, SentenceTransformers, Scikit-Learn |
+| **[Autonomous AI Data Analyst](https://github.com/MERYEMELOSMANI/autonomous-ai-data-analyst)** | 6-agent LangGraph workflow transforming raw datasets into verifiable insights with AST-validated read-only DuckDB SQL, Polars statistical audits, and Plotly charts. | Next.js 14, Tailwind, LangGraph, DuckDB, Polars, FastAPI |
+| **[Churn Prediction MLOps](https://github.com/MERYEMELOSMANI/churn-prediction-mlops)** | Production MLOps system for telco churn prediction — DVC pipeline, MLflow tracking/registry, FastAPI serving, Docker, drift monitoring. | Python, MLflow, DVC, FastAPI, Docker |
+| **[Pricing Analytics Engine](https://github.com/MERYEMELOSMANI/pricing-analytics-engine)** | Dynamic pricing intelligence on 1M+ e-commerce transactions — RFM segmentation, CLV, ABC-XYZ classification, price elasticity, revenue forecasting. | Python, FastAPI, DuckDB, Chart.js |
+| **[Cosmic Alchemist](https://github.com/MERYEMELOSMANI)** | Interactive browser experience sculpting a miniature universe through webcam hand gestures using Three.js additive particle physics and MediaPipe Hand Landmarker. | Three.js, MediaPipe, Web Audio API, Vite |
+| **[Supply Chain Optimization](https://github.com/MERYEMELOSMANI/supply-chain-optimization-dashboard)** | Interactive dashboard with LP, Genetic Algorithm, Monte Carlo simulation, and multi-objective optimization. | Python, Streamlit, PuLP |
+| **[Computer Vision Gesture Suite](https://github.com/MERYEMELOSMANI/hand-detection-program)** | 12 real-time gesture applications — air writing, gesture painter, holographic effects, Rock Paper Scissors. | Python, OpenCV, MediaPipe |
+
+---
+
+## 🔭 Languages and Tools
 
 <div align="center">
 
-<!-- Celestial Constellation Radar SVG Widget -->
+<!-- Pinned Repositories / Constellation Highlight -->
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=MERYEMELOSMANI&repo=research-os&theme=radical&hide_border=true&bg_color=050512&title_color=4cc9f0&icon_color=ffd166&text_color=d4f1f9" width="48%" />
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=MERYEMELOSMANI&repo=autonomous-ai-data-analyst&theme=radical&hide_border=true&bg_color=050512&title_color=4cc9f0&icon_color=ffd166&text_color=d4f1f9" width="48%" />
 
 <br/><br/>
 
-<!-- Tech Stack Badges -->
+<!-- Modern Animated Skill Icons -->
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,fastapi,react,nextjs,ts,js,threejs,tailwind,html,css,postgres,sqlite,docker,git,linux,bash&theme=dark&perline=9" alt="Tech Stack Icons" />
 </a>
@@ -74,25 +90,27 @@ Philosophy: "The most important aspect of software is to be clear about what you
 
 <br/>
 
-### 🛠️ My Skills Matrix
+### 🛠️ Skills Matrix
 
-| 🤖 AI & Machine Learning | 🎨 Frontend & Creative Tech | ⚙️ Backend & Infrastructure |
+| 🤖 AI, ML & Operations Research | 🎨 Frontend & Creative Tech | ⚙️ Backend, MLOps & Data |
 | :--- | :--- | :--- |
-| • **PyTorch / Scikit-Learn** | • **React 19 / Next.js 16** | • **FastAPI & Async Python** |
-| • **LangGraph Multi-Agent** | • **Three.js & WebGL Shaders** | • **PostgreSQL & pgvector** |
-| • **Vector Search & RAG** | • **TypeScript / ES6+** | • **DuckDB & Polars Engine** |
-| • **SentenceTransformers** | • **Vanilla CSS & Glassmorphism** | • **Docker & Docker Compose** |
-| • **Plotly Visualizations** | • **MediaPipe Hand Landmarker** | • **Git, CI/CD & Linux Shell** |
+| • **PyTorch, TensorFlow, Scikit-Learn** | • **React 19, Next.js 16/14** | • **FastAPI, Flask, Streamlit** |
+| • **LangGraph Multi-Agent Workflows** | • **Three.js & WebGL Shaders** | • **DuckDB, Polars, Pandas, NumPy** |
+| • **Vector Search & RAG Pipelines** | • **TypeScript & JavaScript (ES6+)** | • **PostgreSQL, SQLite, MySQL** |
+| • **Operations Research: PuLP, LP, NLP** | • **Tailwind CSS & Vanilla CSS** | • **Docker & Docker Compose** |
+| • **Computer Vision: OpenCV, MediaPipe** | • **Plotly & Interactive Visualizations** | • **MLflow, DVC & CI/CD Pipelines** |
 
 ---
 
-## 🏆 Featured Badges & Recognition
+## 📜 Certifications
 
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=MERYEMELOSMANI&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" />
-
-</div>
+- 🏆 **AWS Technical Essentials** — Amazon Web Services
+- 🏆 **Generative AI: Boost Your Data Analytics Career** — IBM / Coursera
+- 🏆 **Generative AI: Foundations of Prompt Engineering** — IBM / Coursera
+- 🏆 **Python for Data Science, AI & Development** — IBM / Coursera
+- 🏆 **Operations Research (2): Optimization Algorithms** — National Taiwan University / Coursera
+- 🏆 **Introduction to Tableau** — Salesforce / Coursera
+- 🏆 **English C1 Advanced** — EF SET (74/100)
 
 ---
 
