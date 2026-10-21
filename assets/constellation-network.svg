@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 150" width="100%" height="150">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#03030d"/>
+      <stop offset="50%" stop-color="#0a081c"/>
+      <stop offset="100%" stop-color="#03030d"/>
+    </linearGradient>
+
+    <filter id="starGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.35; transform: scale(0.9); }
+      50% { opacity: 1; transform: scale(1.25); }
+    }
+    @keyframes linePulse {
+      0%, 100% { stroke-opacity: 0.35; }
+      50% { stroke-opacity: 0.85; }
+    }
+    .star { fill: #ffffff; transform-origin: center; animation: twinkle 3s ease-in-out infinite; }
+    .star-gold { fill: #ffd166; transform-origin: center; animation: twinkle 2.5s ease-in-out infinite 0.7s; }
+    .star-cyan { fill: #4cc9f0; transform-origin: center; animation: twinkle 3.5s ease-in-out infinite 1.4s; }
+    .const-line { stroke: #9d4edd; stroke-width: 1.5; stroke-dasharray: 4 2; animation: linePulse 4s ease-in-out infinite; }
+    .const-main-line { stroke: #4cc9f0; stroke-width: 2; animation: linePulse 3s ease-in-out infinite; }
+    .sky-label {
+      font-family: 'Space Grotesk', -apple-system, monospace;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 2.5px;
+      fill: rgba(212, 241, 249, 0.65);
+      text-anchor: middle;
+    }
+  </style>
+
+  <!-- Sky Base -->
+  <rect width="100%" height="100%" fill="url(#skyGrad)" rx="10" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Constellation Geometric Lines (Cassiopeia + Neural Network) -->
+  <g filter="url(#starGlow)">
+    <!-- Cassiopeia W Formation -->
+    <polyline points="150,100 280,50 430,85 570,35 720,75" fill="none" class="const-main-line"/>
+
+    <!-- Neural Network Lateral Ties -->
+    <line x1="280" y1="50" x2="360" y2="115" class="const-line"/>
+    <line x1="430" y1="85" x2="360" y2="115" class="const-line"/>
+    <line x1="430" y1="85" x2="520" y2="115" class="const-line"/>
+    <line x1="570" y1="35" x2="520" y2="115" class="const-line"/>
+    <line x1="720" y1="75" x2="800" y2="110" class="const-line"/>
+    <line x1="150" y1="100" x2="90" y2="45" class="const-line"/>
+
+    <!-- Primary Star Nodes -->
+    <circle cx="150" cy="100" r="4.5" class="star-gold"/>
+    <circle cx="280" cy="50" r="5" class="star"/>
+    <circle cx="430" cy="85" r="5.5" class="star-cyan"/>
+    <circle cx="570" cy="35" r="5" class="star"/>
+    <circle cx="720" cy="75" r="4.5" class="star-gold"/>
+
+    <circle cx="360" cy="115" r="3.5" class="star-cyan"/>
+    <circle cx="520" cy="115" r="3.5" class="star-cyan"/>
+    <circle cx="90" cy="45" r="3" class="star"/>
+    <circle cx="800" cy="110" r="3" class="star"/>
+
+    <!-- Ambient Faint Stars -->
+    <circle cx="200" cy="30" r="1.5" class="star" opacity="0.5"/>
+    <circle cx="500" cy="20" r="1.8" class="star-gold" opacity="0.6"/>
+    <circle cx="650" cy="110" r="1.5" class="star" opacity="0.5"/>
+    <circle cx="840" cy="40" r="2" class="star-cyan" opacity="0.7"/>
+    <circle cx="60" cy="120" r="1.5" class="star" opacity="0.4"/>
+  </g>
+
+  <!-- Ambient Sky Label -->
+  <text x="450" y="138" class="sky-label">✨ CELESTIAL CONSTELLATION NETWORK • CASSIOPEIA &amp; NEURAL CORE</text>
+</svg>

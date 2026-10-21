@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 95" width="100%" height="95">
+  <defs>
+    <radialGradient id="boxBg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1b1236" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#070714" stop-opacity="0.95"/>
+    </radialGradient>
+    <filter id="cyberGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes bracketPulse {
+      0%, 100% { opacity: 0.8; filter: drop-shadow(0 0 6px #4cc9f0); }
+      50% { opacity: 1; filter: drop-shadow(0 0 14px #4cc9f0); }
+    }
+    .bracket {
+      font-family: 'Space Grotesk', -apple-system, monospace;
+      font-size: 26px;
+      font-weight: 800;
+      fill: #4cc9f0;
+      animation: bracketPulse 2.5s ease-in-out infinite;
+    }
+    .name-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 22px;
+      font-weight: 800;
+      fill: #ffffff;
+      letter-spacing: 0.03em;
+      text-anchor: middle;
+    }
+    .tagline-text {
+      font-family: 'Space Grotesk', -apple-system, monospace;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      fill: #ffd166;
+      text-anchor: middle;
+    }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="50" y="8" width="800" height="78" rx="14" fill="url(#boxBg)" stroke="#7209b7" stroke-width="1.8" filter="url(#cyberGlow)"/>
+
+  <!-- Left Bracket -->
+  <text x="95" y="55" class="bracket">&lt;/&gt;</text>
+
+  <!-- Centered Name and Tagline -->
+  <text x="450" y="44" class="name-text">Hey, I'm Meryem El Osmani</text>
+  <text x="450" y="66" class="tagline-text">AI &amp; OPTIMAL DECISION SYSTEMS ENGINEER</text>
+
+  <!-- Right Bracket -->
+  <text x="765" y="55" class="bracket">&lt;/&gt;</text>
+</svg>

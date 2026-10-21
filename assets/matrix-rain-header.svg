@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="100%" height="220">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020208"/>
+      <stop offset="50%" stop-color="#07071a"/>
+      <stop offset="100%" stop-color="#020208"/>
+    </linearGradient>
+
+    <!-- Matrix Green Text Glow -->
+    <filter id="matrixGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Center Title Radiant Glow -->
+    <filter id="titleGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur2"/>
+      <feGaussianBlur stdDeviation="4" result="blur1"/>
+      <feMerge>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <radialGradient id="centerMask" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#020208" stop-opacity="0.88"/>
+      <stop offset="65%" stop-color="#020208" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#020208" stop-opacity="0.1"/>
+    </radialGradient>
+  </defs>
+
+  <style>
+    @keyframes drop {
+      0% { transform: translateY(-260px); opacity: 0; }
+      15% { opacity: 0.9; }
+      85% { opacity: 0.9; }
+      100% { transform: translateY(260px); opacity: 0; }
+    }
+    @keyframes pulseTitle {
+      0%, 100% { transform: scale(1); filter: drop-shadow(0 0 10px #4cc9f0); }
+      50% { transform: scale(1.02); filter: drop-shadow(0 0 22px #00ff66); }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(220px); }
+    }
+    .col { font-family: 'Courier New', Courier, monospace; font-size: 13px; font-weight: bold; letter-spacing: 2px; }
+    .c1 { fill: #39d353; animation: drop 3.2s linear infinite; }
+    .c2 { fill: #00ff66; animation: drop 4.1s linear infinite 0.7s; }
+    .c3 { fill: #4cc9f0; animation: drop 3.6s linear infinite 1.4s; }
+    .c4 { fill: #26a641; animation: drop 4.5s linear infinite 2.1s; }
+    .c5 { fill: #7209b7; animation: drop 3.9s linear infinite 1.1s; }
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 42px;
+      font-weight: 800;
+      fill: #ffffff;
+      text-anchor: middle;
+      animation: pulseTitle 4s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .subtitle {
+      font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, monospace;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      fill: #4cc9f0;
+      text-anchor: middle;
+    }
+    .lead-char { fill: #ffffff; font-weight: 900; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" rx="10"/>
+
+  <!-- Matrix Digital Streams -->
+  <g filter="url(#matrixGlow)" opacity="0.75">
+    <text x="35" y="0" class="col c1"><tspan class="lead-char">1</tspan> 0 1 0 1 0 1 0 1 0 1 0 1 0</text>
+    <text x="75" y="0" class="col c3"><tspan class="lead-char">0</tspan> 1 1 0 1 0 0 1 0 1 1 0 1 1</text>
+    <text x="115" y="0" class="col c2"><tspan class="lead-char">M</tspan> E R Y E M 1 0 1 0 1 1 0 1</text>
+    <text x="155" y="0" class="col c4"><tspan class="lead-char">1</tspan> 0 0 1 0 1 1 0 1 0 0 1 0 1</text>
+    <text x="195" y="0" class="col c1"><tspan class="lead-char">A</tspan> I 0 1 1 0 1 0 0 1 1 0 1 0</text>
+    <text x="235" y="0" class="col c5"><tspan class="lead-char">0</tspan> 1 0 1 0 1 1 0 1 0 1 1 0 1</text>
+    <text x="275" y="0" class="col c3"><tspan class="lead-char">1</tspan> 1 0 0 1 0 1 1 0 1 0 0 1 0</text>
+
+    <text x="625" y="0" class="col c2"><tspan class="lead-char">O</tspan> P T 1 0 1 0 1 1 0 1 0 1 1</text>
+    <text x="665" y="0" class="col c1"><tspan class="lead-char">1</tspan> 0 1 1 0 1 0 0 1 0 1 1 0 1</text>
+    <text x="705" y="0" class="col c4"><tspan class="lead-char">D</tspan> A T A 1 0 1 0 1 1 0 1 0 1</text>
+    <text x="745" y="0" class="col c3"><tspan class="lead-char">0</tspan> 1 0 1 1 0 1 0 0 1 1 0 1 0</text>
+    <text x="785" y="0" class="col c1"><tspan class="lead-char">1</tspan> 0 1 0 1 1 0 1 0 1 0 0 1 1</text>
+    <text x="825" y="0" class="col c5"><tspan class="lead-char">M</tspan> L 0 1 0 1 1 0 1 0 1 1 0 1</text>
+    <text x="865" y="0" class="col c2"><tspan class="lead-char">1</tspan> 1 0 1 0 0 1 0 1 1 0 1 0 1</text>
+  </g>
+
+  <!-- Center Glow Shield -->
+  <ellipse cx="450" cy="110" rx="340" ry="90" fill="url(#centerMask)"/>
+
+  <!-- Centered Heading & Subtitle -->
+  <g filter="url(#titleGlow)">
+    <text x="450" y="112" class="title">Hello, World ✨</text>
+  </g>
+  <text x="450" y="152" class="subtitle">DATA ANALYST &amp; AI ENGINEER • OPTIMAL DECISION SYSTEMS</text>
+
+  <!-- Bottom Cyber Border -->
+  <line x1="120" y1="180" x2="780" y2="180" stroke="rgba(76, 201, 240, 0.4)" stroke-width="1.5" stroke-dasharray="8 6"/>
+  <circle cx="120" cy="180" r="3" fill="#4cc9f0"/>
+  <circle cx="780" cy="180" r="3" fill="#4cc9f0"/>
+</svg>

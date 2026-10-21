@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 46" width="100%" height="46">
+  <defs>
+    <style>
+      @keyframes type1 {
+        0%, 22% { opacity: 1; }
+        25%, 100% { opacity: 0; }
+      }
+      @keyframes type2 {
+        0%, 24% { opacity: 0; }
+        25%, 47% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes type3 {
+        0%, 49% { opacity: 0; }
+        50%, 72% { opacity: 1; }
+        75%, 100% { opacity: 0; }
+      }
+      @keyframes type4 {
+        0%, 74% { opacity: 0; }
+        75%, 97% { opacity: 1; }
+        100% { opacity: 0; }
+      }
+      @keyframes cursorBlink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      .txt {
+        font-family: 'Space Grotesk', -apple-system, monospace;
+        font-size: 19px;
+        font-weight: 600;
+        fill: #4cc9f0;
+        text-anchor: middle;
+      }
+      .cursor {
+        fill: #ffd166;
+        animation: cursorBlink 0.8s infinite;
+      }
+      .t1 { animation: type1 16s infinite; }
+      .t2 { animation: type2 16s infinite; }
+      .t3 { animation: type3 16s infinite; }
+      .t4 { animation: type4 16s infinite; }
+    </style>
+  </defs>
+
+  <!-- Cycle Phrases -->
+  <g class="txt t1">
+    <text x="440" y="28">⚡ Data Analyst &amp; AI Engineer 🔬 <tspan class="cursor">|</tspan></text>
+  </g>
+  <g class="txt t2">
+    <text x="440" y="28">⚡ Machine Learning &amp; Optimization Architect 🧠 <tspan class="cursor">|</tspan></text>
+  </g>
+  <g class="txt t3">
+    <text x="440" y="28">⚡ Autonomous Multi-Agent Systems Developer ⚡ <tspan class="cursor">|</tspan></text>
+  </g>
+  <g class="txt t4">
+    <text x="440" y="28">⚡ Computer Vision &amp; Gesture Recognition 👁️ <tspan class="cursor">|</tspan></text>
+  </g>
+</svg>

@@ -1,47 +1,42 @@
 <div align="center">
 
-<!-- Matrix / Digital Rain Header Animation -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,1,2,3&height=190&section=header&text=Hello,%20World%20%E2%9C%A8&fontSize=44&fontAlignY=38&animation=twinkling&fontColor=ffffff&desc=Data%20Analyst%20%26%20AI%20Engineer&descSize=16&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
+<!-- Matrix Digital Rain Header Animation (Native SVG) -->
+<img src="./assets/matrix-rain-header.svg" width="100%" alt="Hello, World - Matrix Rain Header" />
 
-<!-- Rainbow Neon Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4300-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Rainbow Divider">
-
-<br/>
-
-<!-- Cyber Greeting Banner -->
-```ascii
- ╔═══════════════════════════════════════════════════════════════════════════════╗
- ║   </>     HEY, I'M MERYEM EL OSMANI  •  AI & OPTIMAL DECISION SYSTEMS     </> ║
- ╚═══════════════════════════════════════════════════════════════════════════════╝
-```
-
-<!-- Dynamic Typing SVG -->
-<a href="https://github.com/MERYEMELOSMANI">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=22&duration=2800&pause=1100&color=4CC9F0&center=true&vCenter=true&multiline=false&width=650&height=48&lines=Data+Analyst+%26+AI+Engineer+%F0%9F%94%AC;Machine+Learning+%26+Optimization+Architect+%F0%9F%A7%A0;Autonomous+Multi-Agent+System+Developer+%E2%9A%A1;Computer+Vision+%26+Predictive+Modeling+%F0%9F%91%81%EF%B8%8F" alt="Typing Header" />
-</a>
+<!-- Neon Rainbow Animated Divider -->
+<img src="./assets/neon-divider.svg" width="100%" alt="Rainbow Divider" />
 
 <br/>
 
-<!-- Social & Status Badges -->
+<!-- Cyber Greeting Banner (Native Glowing SVG) -->
+<img src="./assets/cyber-banner.svg" width="100%" alt="Hey, I'm Meryem El Osmani - Cyber Banner" />
+
+<!-- Dynamic Typewriter Animation (Native SVG) -->
+<img src="./assets/typewriter.svg" width="100%" alt="Dynamic AI Engineer Typewriter" />
+
+<br/>
+
+<!-- Social, Status & Profile Counter Badges -->
 <p align="center">
   <a href="https://komarev.com/ghpvc/?username=MERYEMELOSMANI&color=7209b7&style=for-the-badge&label=PROFILE+VIEWS"><img src="https://komarev.com/ghpvc/?username=MERYEMELOSMANI&color=7209b7&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" /></a>
   <a href="https://linkedin.com/in/meryemelosmani"><img src="https://img.shields.io/badge/LinkedIn-Meryem%20El%20Osmani-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:maryamelosmani@gmail.com"><img src="https://img.shields.io/badge/Email-maryamelosmani@gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:m.elosmani@edu.umi.ac.ma"><img src="https://img.shields.io/badge/Email-m.elosmani@edu.umi.ac.ma-ea4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/Location-Morocco%20%F0%9F%87%B2%F0%9F%87%A6-7209b7?style=for-the-badge&logo=google-maps&logoColor=white" />
   <img src="https://img.shields.io/badge/Status-Building%20AI%20Systems-ffd166?style=for-the-badge&logo=satellite&logoColor=black" />
+  <a href="https://github.com/MERYEMELOSMANI/about-me-interactive"><img src="https://img.shields.io/badge/Live_Showcase-3D_Tilt_&_Audio_FX-ff007f?style=for-the-badge&logo=visualstudiocode&logoColor=white" /></a>
 </p>
 
 </div>
 
-<!-- Rainbow Neon Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4300-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Rainbow Divider">
+<!-- Neon Rainbow Animated Divider -->
+<img src="./assets/neon-divider.svg" width="100%" alt="Rainbow Divider" />
 
 ## 🌌 About Me
 
 ```yaml
 Name: Meryem El Osmani
 Degree: Master's in Artificial Intelligence & Optimal Decision Systems
-University: Faculté des Sciences de Meknès
+University: Faculté des Sciences de Meknès 🇲🇦
 Core Competencies:
   - Machine Learning & Deep Learning (PyTorch, Scikit-Learn)
   - Operations Research & Combinatorial Optimization (PuLP, Simplex, Genetic Algorithms)
@@ -54,7 +49,7 @@ Spoken Languages:
   - French (B2 Professional)
 ```
 
-I build end-to-end intelligent systems, mathematical optimization engines, and autonomous agent pipelines — from data ingestion and semantic vector retrieval to high-performance real-time deployment.
+I architect end-to-end intelligent systems, mathematical optimization engines, and autonomous agent pipelines — from data ingestion and semantic vector retrieval to high-performance real-time deployment.
 
 ---
 
@@ -64,9 +59,9 @@ I build end-to-end intelligent systems, mathematical optimization engines, and a
 | :--- | :--- | :--- |
 | **[ResearchOS](https://github.com/MERYEMELOSMANI/research-os)** | Autonomous AI research workbench linking PDF literature ingestion, vector embeddings (`all-MiniLM-L6-v2`), synthesized RAG, tabular ML training, and real-time model serving. | Next.js 16, React 19, FastAPI, SQLite, SentenceTransformers, Scikit-Learn |
 | **[Autonomous AI Data Analyst](https://github.com/MERYEMELOSMANI/autonomous-ai-data-analyst)** | 6-agent LangGraph workflow transforming raw datasets into verifiable insights with AST-validated read-only DuckDB SQL, Polars statistical audits, and Plotly charts. | Next.js 14, Tailwind, LangGraph, DuckDB, Polars, FastAPI |
+| **[Cosmic Alchemist](https://github.com/MERYEMELOSMANI)** | Interactive browser experience sculpting a miniature glowing universe through webcam hand gestures using Three.js additive particle physics and MediaPipe. | Three.js, MediaPipe, Web Audio API, Vite |
 | **[Churn Prediction MLOps](https://github.com/MERYEMELOSMANI/churn-prediction-mlops)** | Production MLOps system for telco churn prediction — DVC pipeline, MLflow tracking/registry, FastAPI serving, Docker, drift monitoring. | Python, MLflow, DVC, FastAPI, Docker |
 | **[Pricing Analytics Engine](https://github.com/MERYEMELOSMANI/pricing-analytics-engine)** | Dynamic pricing intelligence on 1M+ e-commerce transactions — RFM segmentation, CLV, ABC-XYZ classification, price elasticity, revenue forecasting. | Python, FastAPI, DuckDB, Chart.js |
-| **[Cosmic Alchemist](https://github.com/MERYEMELOSMANI)** | Interactive browser experience sculpting a miniature universe through webcam hand gestures using Three.js additive particle physics and MediaPipe Hand Landmarker. | Three.js, MediaPipe, Web Audio API, Vite |
 | **[Supply Chain Optimization](https://github.com/MERYEMELOSMANI/supply-chain-optimization-dashboard)** | Interactive dashboard with LP, Genetic Algorithm, Monte Carlo simulation, and multi-objective optimization. | Python, Streamlit, PuLP |
 | **[Computer Vision Gesture Suite](https://github.com/MERYEMELOSMANI/hand-detection-program)** | 12 real-time gesture applications — air writing, gesture painter, holographic effects, Rock Paper Scissors. | Python, OpenCV, MediaPipe |
 
@@ -76,9 +71,8 @@ I build end-to-end intelligent systems, mathematical optimization engines, and a
 
 <div align="center">
 
-<!-- Pinned Repositories / Constellation Highlight -->
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=MERYEMELOSMANI&repo=research-os&theme=radical&hide_border=true&bg_color=050512&title_color=4cc9f0&icon_color=ffd166&text_color=d4f1f9" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=MERYEMELOSMANI&repo=autonomous-ai-data-analyst&theme=radical&hide_border=true&bg_color=050512&title_color=4cc9f0&icon_color=ffd166&text_color=d4f1f9" width="48%" />
+<!-- Celestial Constellation Star Network (Native SVG) -->
+<img src="./assets/constellation-network.svg" width="100%" alt="Celestial Constellation Network" />
 
 <br/><br/>
 
@@ -98,7 +92,7 @@ I build end-to-end intelligent systems, mathematical optimization engines, and a
 | • **PyTorch, TensorFlow, Scikit-Learn** | • **React 19, Next.js 16/14** | • **FastAPI, Flask, Streamlit** |
 | • **LangGraph Multi-Agent Workflows** | • **Three.js & WebGL Shaders** | • **DuckDB, Polars, Pandas, NumPy** |
 | • **Vector Search & RAG Pipelines** | • **TypeScript & JavaScript (ES6+)** | • **PostgreSQL, SQLite, MySQL** |
-| • **Operations Research: PuLP, LP, NLP** | • **Tailwind CSS & Vanilla CSS** | • **Docker & Docker Compose** |
+| • **Operations Research: PuLP, LP, Simplex** | • **Tailwind CSS & Vanilla CSS** | • **Docker & Docker Compose** |
 | • **Computer Vision: OpenCV, MediaPipe** | • **Plotly & Interactive Visualizations** | • **MLflow, DVC & CI/CD Pipelines** |
 
 ---
@@ -107,9 +101,9 @@ I build end-to-end intelligent systems, mathematical optimization engines, and a
 
 <div align="center">
 
-| <a href="https://www.credly.com/badges/3b8811af-ea44-4d18-a75a-984e3541ba0f/public_url" target="_blank"><img src="https://images.credly.com/images/950038fc-2519-4f79-8827-f71caf0f5095/linkedin_thumb_image.png" width="110" alt="Data Analysis with Python" /></a><br/>**[Data Analysis with Python](https://www.credly.com/badges/3b8811af-ea44-4d18-a75a-984e3541ba0f/public_url)**<br/><sub>Coursera • IBM Skills Network</sub><br/><sub>📅 15 Déc 2025 • [Verify Credly](https://www.credly.com/badges/3b8811af-ea44-4d18-a75a-984e3541ba0f/public_url)</sub> | <a href="https://www.credly.com/badges/26b1c937-0935-4391-822a-2af5a6462840/public_url" target="_blank"><img src="https://images.credly.com/images/8a8e33de-e50b-4a5f-80de-faf8ab3ac1c5/linkedin_thumb_image.png" width="110" alt="Generative AI Essentials for Data Analytics" /></a><br/>**[Gen AI Essentials for Data Analytics](https://www.credly.com/badges/26b1c937-0935-4391-822a-2af5a6462840/public_url)**<br/><sub>Coursera • IBM Skills Network</sub><br/><sub>📅 29 Janv 2026 • [Verify Credly](https://www.credly.com/badges/26b1c937-0935-4391-822a-2af5a6462840/public_url)</sub> | <a href="https://www.credly.com/badges/221a6c87-4819-4287-b8ba-ad45fc399936/public_url" target="_blank"><img src="https://images.credly.com/images/7fd5a03e-823f-4449-af43-59afe528f4ee/linkedin_thumb_image.png" width="110" alt="Generative AI: Prompt Engineering" /></a><br/>**[Generative AI: Prompt Engineering](https://www.credly.com/badges/221a6c87-4819-4287-b8ba-ad45fc399936/public_url)**<br/><sub>Coursera • IBM Skills Network</sub><br/><sub>📅 29 Janv 2026 • [Verify Credly](https://www.credly.com/badges/221a6c87-4819-4287-b8ba-ad45fc399936/public_url)</sub> |
+| <a href="https://www.credly.com/badges/3b8811af-ea44-4d18-a75a-984e3541ba0f/public_url" target="_blank"><img src="https://images.credly.com/images/950038fc-2519-4f79-8827-f71caf0f5095/linkedin_thumb_image.png" width="115" alt="Data Analysis with Python" /></a><br/>**[Data Analysis with Python](https://www.credly.com/badges/3b8811af-ea44-4d18-a75a-984e3541ba0f/public_url)**<br/><sub>Coursera • IBM Skills Network</sub><br/><sub>📅 15 Déc 2025 • [Verify Credly](https://www.credly.com/badges/3b8811af-ea44-4d18-a75a-984e3541ba0f/public_url)</sub> | <a href="https://www.credly.com/badges/26b1c937-0935-4391-822a-2af5a6462840/public_url" target="_blank"><img src="https://images.credly.com/images/8a8e33de-e50b-4a5f-80de-faf8ab3ac1c5/linkedin_thumb_image.png" width="115" alt="Generative AI Essentials for Data Analytics" /></a><br/>**[Gen AI Essentials for Data Analytics](https://www.credly.com/badges/26b1c937-0935-4391-822a-2af5a6462840/public_url)**<br/><sub>Coursera • IBM Skills Network</sub><br/><sub>📅 29 Janv 2026 • [Verify Credly](https://www.credly.com/badges/26b1c937-0935-4391-822a-2af5a6462840/public_url)</sub> | <a href="https://www.credly.com/badges/221a6c87-4819-4287-b8ba-ad45fc399936/public_url" target="_blank"><img src="https://images.credly.com/images/7fd5a03e-823f-4449-af43-59afe528f4ee/linkedin_thumb_image.png" width="115" alt="Generative AI: Prompt Engineering" /></a><br/>**[Generative AI: Prompt Engineering](https://www.credly.com/badges/221a6c87-4819-4287-b8ba-ad45fc399936/public_url)**<br/><sub>Coursera • IBM Skills Network</sub><br/><sub>📅 29 Janv 2026 • [Verify Credly](https://www.credly.com/badges/221a6c87-4819-4287-b8ba-ad45fc399936/public_url)</sub> |
 | :---: | :---: | :---: |
-| <a href="https://www.credly.com/badges/3ebce190-6b53-41e1-86c4-132c21d115bf/public_url" target="_blank"><img src="https://images.credly.com/images/505080ad-3731-4b1d-98df-347655a45750/linkedin_thumb_image.png" width="110" alt="Google Cloud Cybersecurity Certificate" /></a><br/>**[Google Cloud Cybersecurity Certificate](https://www.credly.com/badges/3ebce190-6b53-41e1-86c4-132c21d115bf/public_url)**<br/><sub>Google Cloud</sub><br/><sub>📅 8 Sept 2026 • [Verify Credly](https://www.credly.com/badges/3ebce190-6b53-41e1-86c4-132c21d115bf/public_url)</sub> | <a href="https://www.credly.com/badges/0f776e60-2a02-4f29-90f1-b3f90cfd1de6/public_url" target="_blank"><img src="https://images.credly.com/images/40bee502-a5b3-4365-90e7-57eed5067594/linkedin_thumb_image.png" width="110" alt="Python for Data Science and AI" /></a><br/>**[Python for Data Science & AI](https://www.credly.com/badges/0f776e60-2a02-4f29-90f1-b3f90cfd1de6/public_url)**<br/><sub>Coursera • IBM Skills Network</sub><br/><sub>📅 28 Nov 2025 • [Verify Credly](https://www.credly.com/badges/0f776e60-2a02-4f29-90f1-b3f90cfd1de6/public_url)</sub> | 🌐<br/>**English C1 Advanced**<br/><sub>EF SET Score (74/100)</sub><br/><sub>Proficient Academic &amp; Technical</sub> |
+| <a href="https://www.credly.com/badges/3ebce190-6b53-41e1-86c4-132c21d115bf/public_url" target="_blank"><img src="https://images.credly.com/images/505080ad-3731-4b1d-98df-347655a45750/linkedin_thumb_image.png" width="115" alt="Google Cloud Cybersecurity Certificate" /></a><br/>**[Google Cloud Cybersecurity Certificate](https://www.credly.com/badges/3ebce190-6b53-41e1-86c4-132c21d115bf/public_url)**<br/><sub>Google Cloud</sub><br/><sub>📅 8 Sept 2026 • [Verify Credly](https://www.credly.com/badges/3ebce190-6b53-41e1-86c4-132c21d115bf/public_url)</sub> | <a href="https://www.credly.com/badges/0f776e60-2a02-4f29-90f1-b3f90cfd1de6/public_url" target="_blank"><img src="https://images.credly.com/images/40bee502-a5b3-4365-90e7-57eed5067594/linkedin_thumb_image.png" width="115" alt="Python for Data Science and AI" /></a><br/>**[Python for Data Science & AI](https://www.credly.com/badges/0f776e60-2a02-4f29-90f1-b3f90cfd1de6/public_url)**<br/><sub>Coursera • IBM Skills Network</sub><br/><sub>📅 28 Nov 2025 • [Verify Credly](https://www.credly.com/badges/0f776e60-2a02-4f29-90f1-b3f90cfd1de6/public_url)</sub> | 🌐<br/>**English C1 Advanced**<br/><sub>EF SET Score (74/100)</sub><br/><sub>Proficient Academic &amp; Technical</sub> |
 
 <br/>
 
@@ -147,11 +141,6 @@ I build end-to-end intelligent systems, mathematical optimization engines, and a
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MERYEMELOSMANI&layout=compact&theme=radical&hide_border=true&bg_color=050512&title_color=4cc9f0&text_color=d4f1f9" width="55%" alt="Top Languages" />
 
-<br/><br/>
-
-<!-- Dynamic Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MERYEMELOSMANI&theme=react-dark&bg_color=050512&color=4cc9f0&line=7209b7&point=ffd166&area=true&hide_border=true" width="100%" alt="Contribution Activity Graph" />
-
 </div>
 
 ---
@@ -160,7 +149,7 @@ I build end-to-end intelligent systems, mathematical optimization engines, and a
 
 <div align="center">
 
-<!-- Snake eating GitHub contributions grid -->
+<!-- Snake eating real GitHub contributions grid -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MERYEMELOSMANI/MERYEMELOSMANI/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MERYEMELOSMANI/MERYEMELOSMANI/output/github-contribution-grid-snake.svg">
@@ -169,9 +158,9 @@ I build end-to-end intelligent systems, mathematical optimization engines, and a
 
 </div>
 
-<!-- Rainbow Neon Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4300-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Rainbow Divider">
+<!-- Neon Rainbow Animated Divider -->
+<img src="./assets/neon-divider.svg" width="100%" alt="Rainbow Divider" />
 
 <div align="center">
-  <sub>Crafted with passion, stardust, and mathematical precision by <strong>Meryem El Osmani</strong></sub>
+  <sub>Crafted with passion, cosmic stardust, and mathematical precision by <strong>Meryem El Osmani</strong></sub>
 </div>
