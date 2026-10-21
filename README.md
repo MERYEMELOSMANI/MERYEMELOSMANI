@@ -24,6 +24,7 @@
 
 <!-- Social & Status Badges -->
 <p align="center">
+  <a href="https://komarev.com/ghpvc/?username=MERYEMELOSMANI&color=7209b7&style=for-the-badge&label=PROFILE+VIEWS"><img src="https://komarev.com/ghpvc/?username=MERYEMELOSMANI&color=7209b7&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" /></a>
   <a href="https://linkedin.com/in/meryemelosmani"><img src="https://img.shields.io/badge/LinkedIn-Meryem%20El%20Osmani-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:maryamelosmani@gmail.com"><img src="https://img.shields.io/badge/Email-maryamelosmani@gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/Location-Morocco%20%F0%9F%87%B2%F0%9F%87%A6-7209b7?style=for-the-badge&logo=google-maps&logoColor=white" />
@@ -135,7 +136,7 @@ I build end-to-end intelligent systems, mathematical optimization engines, and a
 
 ---
 
-## 📊 GitHub Analytics & Streak
+## 📊 GitHub Analytics & Real Activity
 
 <div align="center">
 
@@ -145,6 +146,11 @@ I build end-to-end intelligent systems, mathematical optimization engines, and a
 <br/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MERYEMELOSMANI&layout=compact&theme=radical&hide_border=true&bg_color=050512&title_color=4cc9f0&text_color=d4f1f9" width="55%" alt="Top Languages" />
+
+<br/><br/>
+
+<!-- Dynamic Activity Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MERYEMELOSMANI&theme=react-dark&bg_color=050512&color=4cc9f0&line=7209b7&point=ffd166&area=true&hide_border=true" width="100%" alt="Contribution Activity Graph" />
 
 </div>
 
