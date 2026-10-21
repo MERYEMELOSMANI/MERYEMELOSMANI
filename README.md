@@ -23,7 +23,7 @@
   <a href="mailto:m.elosmani@edu.umi.ac.ma"><img src="https://img.shields.io/badge/Email-m.elosmani@edu.umi.ac.ma-ea4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/Location-Morocco%20%F0%9F%87%B2%F0%9F%87%A6-7209b7?style=for-the-badge&logo=google-maps&logoColor=white" />
   <img src="https://img.shields.io/badge/Status-Building%20AI%20Systems-ffd166?style=for-the-badge&logo=satellite&logoColor=black" />
-  <a href="https://github.com/MERYEMELOSMANI/about-me-interactive"><img src="https://img.shields.io/badge/Live_Showcase-3D_Tilt_&_Audio_FX-ff007f?style=for-the-badge&logo=visualstudiocode&logoColor=white" /></a>
+  <a href="https://meryemelosmani.github.io/MERYEMELOSMANI/"><img src="https://img.shields.io/badge/Live_Showcase-Interactive_Terminal_&_3D-00ff66?style=for-the-badge&logo=gnubash&logoColor=black" /></a>
 </p>
 
 </div>
@@ -41,6 +41,7 @@ Core Competencies:
   - Machine Learning & Deep Learning (PyTorch, Scikit-Learn)
   - Operations Research & Combinatorial Optimization (PuLP, Simplex, Genetic Algorithms)
   - Autonomous Multi-Agent Orchestration (LangGraph, DuckDB, Polars)
+  - Full-Stack AI Systems Engineering (FastAPI, Next.js, Vector RAG)
   - End-to-End MLOps & Real-Time API Deployment (FastAPI, Docker, DVC)
   - Computer Vision & Gesture Recognition (OpenCV, MediaPipe)
 Spoken Languages:
@@ -113,6 +114,22 @@ I architect end-to-end intelligent systems, mathematical optimization engines, a
   <a href="https://www.credly.com/badges/221a6c87-4819-4287-b8ba-ad45fc399936/public_url" target="_blank"><img src="https://img.shields.io/badge/IBM-Prompt_Engineering-052FAD?style=for-the-badge&logo=ibm&logoColor=white" /></a>
   <a href="https://www.credly.com/badges/3ebce190-6b53-41e1-86c4-132c21d115bf/public_url" target="_blank"><img src="https://img.shields.io/badge/Google_Cloud-Cybersecurity_Certificate-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" /></a>
   <a href="https://www.credly.com/badges/0f776e60-2a02-4f29-90f1-b3f90cfd1de6/public_url" target="_blank"><img src="https://img.shields.io/badge/IBM-Python_for_Data_Science_&_AI-052FAD?style=for-the-badge&logo=python&logoColor=white" /></a>
+</p>
+
+</div>
+
+---
+
+## 💻 Interactive Cyber Developer CLI Terminal
+
+<div align="center">
+
+<a href="https://meryemelosmani.github.io/MERYEMELOSMANI/">
+  <img src="https://raw.githubusercontent.com/MERYEMELOSMANI/MERYEMELOSMANI/main/assets/cyber-terminal.svg" width="100%" alt="Interactive Cyber Developer CLI Terminal" />
+</a>
+
+<p align="center">
+  <a href="https://meryemelosmani.github.io/MERYEMELOSMANI/"><img src="https://img.shields.io/badge/▶_Launch_Live_Interactive_Terminal-00ff66?style=for-the-badge&logo=gnubash&logoColor=black" /></a>
 </p>
 
 </div>
