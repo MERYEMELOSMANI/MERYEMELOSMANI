@@ -41,6 +41,7 @@ Core Competencies:
   - Machine Learning & Deep Learning (PyTorch, Scikit-Learn)
   - Operations Research & Combinatorial Optimization (PuLP, Simplex, Genetic Algorithms)
   - Autonomous Multi-Agent Orchestration (LangGraph, DuckDB, Polars)
+  - Full-Stack AI Systems Engineering (FastAPI, Next.js, Vector RAG)
   - End-to-End MLOps & Real-Time API Deployment (FastAPI, Docker, DVC)
   - Computer Vision & Gesture Recognition (OpenCV, MediaPipe)
 Spoken Languages:
